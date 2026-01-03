@@ -13,6 +13,7 @@ def create_model(data: DataFrame):
 
     # Initalize values to normalize values
     scaler = StandardScaler()
+    
     X = scaler.fit_transform(X)
 
     #split data
